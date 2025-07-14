@@ -1,37 +1,63 @@
+<!-- contact.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Tech Reviews Hub</title>
-  <meta name="description" content="Get in touch with us for questions, suggestions, or collaborations.">
-  <meta name="keywords" content="contact tech blog, tech reviews support">
-  <meta name="author" content="Tech Reviews Hub">
-  <link rel="canonical" href="https://yourdomain.com/contact.html" />
+  <title>Contact - Tech Reviews Hub</title>
   <link rel="stylesheet" href="css/style.css" />
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EK3D70FVL4"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-EK3D70FVL4');
-  </script>
-  <!-- Open Graph -->
-  <meta property="og:title" content="Contact Tech Reviews Hub">
-  <meta property="og:description" content="Get in touch with us for questions, suggestions, or collaborations.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://yourdomain.com/contact.html">
-  <meta property="og:image" content="https://yourdomain.com/images/featured.jpg">
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Contact Tech Reviews Hub">
-  <meta name="twitter:description" content="Get in touch with us for questions, suggestions, or collaborations.">
-  <meta name="twitter:image" content="https://yourdomain.com/images/featured.jpg">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-EK3D70FVL4');
+</script>
 </head>
 <body>
-  <h1>contact.html content goes here</h1>
+  <header>
+    <div class="container header-content">
+      <h1>Contact Us</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Get in Touch</h2>
+      <p>Have questions or suggestions? We'd love to hear from you. Fill out the form below and we'll get back to you as soon as possible.</p>
+
+      <form action="https://formspree.io/f/yourFormID" method="POST" class="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="_replyto" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Tech Reviews Hub. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
