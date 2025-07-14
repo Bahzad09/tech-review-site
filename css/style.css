@@ -212,4 +212,16 @@ footer {
 .blog-post-preview a:hover {
   color: #ff9900;
 }
+.site-logo {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.site-logo {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  margin-right: 10px;
+}
 
