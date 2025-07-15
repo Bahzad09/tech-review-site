@@ -473,4 +473,11 @@ h2, h3 {
   padding-left: 1.4rem;
   line-height: 1.6;
 }
+.blog-post-preview img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
 
