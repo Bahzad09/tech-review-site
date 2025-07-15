@@ -508,5 +508,21 @@ h2, h3 {
     text-align: left;
   }
 }
+.read-more-btn {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #007acc;
+  color: #ffffff; /* white text */
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.read-more-btn:hover {
+  background-color: #005f99;
+  color: #ffffff;
+}
 
 
